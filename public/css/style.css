@@ -1,0 +1,61 @@
+.heading {
+    text-align: center;
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.ml-5pr {
+    margin-left: 2% !important;
+}
+.w-50{
+    width: 50%;
+}
+
+#message-body {
+    margin-left:10%
+}
+.bg-color-success{
+    border-radius: 5px;
+    background-color: white;
+    color: green;
+}
+.bg-color-danger{
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+}
+.bg-color-primary{
+    border-radius: 5px;
+    background-color: white;
+    color: blue;
+}
+.topic_input{
+    width: 80%;
+    height:40px;
+    margin-left:10%;
+    border-radius: 10px;
+}
+.msg-container{
+    background: #ccc;
+    width: auto;
+    padding: 1%;
+    padding-left: 3%;
+    margin-right:10%;
+    border-radius: 10px;
+}
+
+.btn {
+    border: 0;
+    background-color: transparent;
+    color: #000;
+}

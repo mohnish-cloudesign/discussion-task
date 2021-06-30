@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PayTM : Widget for discussions</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+
+    <h1 class="heading">Widget for discussions</h1>
+    <div>
+        <input
+            id="new_topic"
+            class="topic_input"
+            type="text"
+            name="new_topic"
+            placeholder="start a new discussion"
+            onchange="beginNewDiscussion(this.value)"
+        />
+    </div>
+
+    <div class="mt-15" id="message-body">
+
+    </div>
+
+    <script src="./public/js/utils.js" type='text/javascript'> </script>
+    <script src="./public/js/constant.js" type='text/javascript'> </script>
+    <script src="./public/js/main.js" type='text/javascript'> </script>
+</body>
+
+</html>
